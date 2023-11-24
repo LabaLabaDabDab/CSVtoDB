@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="insert:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/insert_jar</output-path>
+    <root id="archive" name="insert.jar">
+      <element id="module-output" name="csv_to_gp" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/postgresql-42.2.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/opencsv-5.7.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/commons-lang3-3.12.0.jar" path-in-jar="/" />
+      <element id="file-copy" path="$PROJECT_DIR$/lib/commons-lang3-3.12.0.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/lib/opencsv-5.7.1.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/lib/postgresql-42.2.5.jar" />
+      <element id="library" level="project" name="commons-lang3-3.12.0" />
+    </root>
+  </artifact>
+</component>
